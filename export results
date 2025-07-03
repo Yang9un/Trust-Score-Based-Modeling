@@ -1,0 +1,6 @@
+import csv
+with open("ts_burden_scalability.csv", "w", newline="") as f:
+    writer = csv.DictWriter(f, fieldnames=result.keys())
+    writer.writeheader()
+    for size in [10000, 50000, 100000, 1000000]:
+        writer.writerow(evaluate_computational_burden_extended(df_extended, size, weights))
