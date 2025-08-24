@@ -8,9 +8,10 @@ This repository provides the experimental code used in the paper:
 ## Experiments
 The repository contains three main types of experiments:
 
-1. Computational Burden and Scalability of the TS Model  
-   - Measure latency, throughput, and memory usage.  
-   - Tested across dataset sizes up to 1,000,000 records to demonstrate scalability.  
+1. Cross-Dataset Performance Evaluation (UNSW-NB15 vs. CICIDS2017)  
+   - Evaluate the robustness of the TS model across different datasets.  
+   - Datasets: UNSW-NB15 (general-purpose attacks) and CICIDS2017 Wednesday subset (benign + DoS/DDoS).  
+   - Metrics: Accuracy, Precision, Recall, F1-Score, and ROC-AUC.  
 
 2. Comparative Benchmarking of Legacy Access Control Models vs. the TS Model
    - Models included:  
@@ -20,10 +21,10 @@ The repository contains three main types of experiments:
     - Compared with the proposed Trust Score (TS) model.  
    - Metrics: average latency (ms/record) and throughput (TPS).  
 
-3. Cross-Dataset Performance Evaluation (UNSW-NB15 vs. CICIDS2017)  
-   - Evaluate the robustness of the TS model across different datasets.  
-   - Datasets: UNSW-NB15 (general-purpose attacks) and CICIDS2017 Wednesday subset (benign + DoS/DDoS).  
-   - Metrics: Accuracy, Precision, Recall, F1-Score, and ROC-AUC.  
+3. Computational Burden and Scalability of the TS Model  
+   - Measure latency, throughput, and memory usage.  
+   - Tested across dataset sizes up to 1,000,000 records to demonstrate scalability.  
+
 
 ---
 
