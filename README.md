@@ -1,2 +1,2 @@
 # Trust-Score-Based-Modeling
-A Trust Score-Based Modeling Approach for Adaptive Access Control and Threat Detection in Zero Trust Architecture
+A Trust Score-Based Access Control Model for Zero Trust Architecture: Design, Sensitivity Analysis, and Real-World Performance Evaluation
