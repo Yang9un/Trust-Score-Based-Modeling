@@ -46,7 +46,9 @@ The repository contains three main types of experiments:
   Original reference: [UNSW-NB15 – UNSW Canberra](https://research.unsw.edu.au/projects/unsw-nb15-dataset)  
 
 - CICIDS2017 dataset** (Wednesday subset used for evaluation)  
-  Original reference: [CICIDS2017 – Canadian Institute for Cybersecurity](https://www.unb.ca/cic/datasets/ids-2017.html)  
+  Original reference: [CICIDS2017 – Canadian Institute for Cybersecurity](https://www.unb.ca/cic/datasets/ids-2017.html)
+
+※ The original datasets (UNSW-NB15 and CICIDS2017) are not included in this repository due to GitHub upload size limitations, but they can be obtained directly from the authors upon request.
 
 ---
 
