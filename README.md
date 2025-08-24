@@ -13,17 +13,17 @@ The repository contains three main types of experiments:
    - Datasets: UNSW-NB15 (general-purpose attacks) and CICIDS2017 Wednesday subset (benign + DoS/DDoS).  
    - Metrics: Accuracy, Precision, Recall, F1-Score, and ROC-AUC.  
 
-2. Comparative Benchmarking of Legacy Access Control Models vs. the TS Model
+2. Computational Burden and Scalability of the TS Model  
+   - Measure latency, throughput, and memory usage.  
+   - Tested across dataset sizes up to 1,000,000 records to demonstrate scalability.
+   
+3. Comparative Benchmarking of Legacy Access Control Models vs. the TS Model
    - Models included:  
       - RBAC (Role-Based Access Control)  
       - ABAC (Attribute-Based Access Control)  
       - RBA (Risk-Based Access Control)  
     - Compared with the proposed Trust Score (TS) model.  
-   - Metrics: average latency (ms/record) and throughput (TPS).  
-
-3. Computational Burden and Scalability of the TS Model  
-   - Measure latency, throughput, and memory usage.  
-   - Tested across dataset sizes up to 1,000,000 records to demonstrate scalability.  
+   - Metrics: average latency (ms/record) and throughput (TPS). 
 
 
 ---
