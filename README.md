@@ -29,15 +29,15 @@ The repository contains three main types of experiments:
 ---
 
 ## Repository Structure
+- evaluate_datasets_unsw_cicids.py  
+  Code for cross-dataset performance evaluation using UNSW-NB15 and CICIDS2017.  
+  - Includes preprocessing, train/test split, and classification performance analysis.
+   
 - ts_computational_burden.py  
   Code for measuring computational burden and scalability of the TS model.  
 
 - access_control_models_unsw_v12.py  
   Code for comparative benchmarking of RBAC, ABAC, RBA, and the TS model.  
-
-- evaluate_datasets_unsw_cicids.py  
-  Code for cross-dataset performance evaluation using UNSW-NB15 and CICIDS2017.  
-  - Includes preprocessing, train/test split, and classification performance analysis.  
 
 ---
 
